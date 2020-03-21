@@ -1,0 +1,39 @@
+/*Inheritance: it is the feature of object oriented programming and in inheritance we can create a new class by using exiting class.The exixting class is called base class, super class or parent class and new created class is called sub class or derived class or child class.
+The concept of inheritance is also known as reuseability.
+E.g
+class A
+{
+
+}
+class extends A  //extends is a keyword
+{
+
+}
+*/
+
+class RunDog
+{
+  public void bark()
+   {
+  System.out.println("Moti.............");
+  System.out.println("Bho......Bho........");
+   }
+}
+
+class BullDog extends RunDog
+{
+  public void grawl()
+   {
+    System.out.println("Tuffy......................");
+    System.out.println("Grawl.......");
+    }
+}
+ class TestDog
+ {
+   public static void main(String... args)
+   {
+    BullDog dog=new BullDog();
+    dog.bark();
+    dog.grawl();
+   }
+}
