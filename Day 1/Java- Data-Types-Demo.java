@@ -1,4 +1,4 @@
-#Example of Data Type
+//Example of Data Type
 
 public class DataTypeDemo 
 {
