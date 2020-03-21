@@ -5,6 +5,8 @@ public static void main(String[] args) {
     //checking the age  
     if(age>45){  
         System.out.print("Pass");  
+    }else{
+        System.out.print("Fail");
     }  
 }  
 }  
